@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<style type="text/css">
+	h1
+	{
+		text-align: center;
+		color: blue;
+		font-size: 4em;
+		font-family: timesnewroman;
+		margin: 0px;
+		background-color: black;
+	}
+	.fm1
+		{
+			border: 2px solid black;
+			border-radius: 10px;
+			padding: 20px;
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 5%;
+			color: black;
+			font-size: 1.5em;	
+			font-family: timesnewroman;
+			text-align: center;
+			margin-top: 20px;
+		}
+	body
+	{
+		background-color: skyblue;
+	}
+	.p
+	{
+		color: black;
+	}
+</style>
+</head>
+<body>
+	<H1>CONTACT DETAILS</H1>
+	<nav class="navbar navbar-inverse navabar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">TRP</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="web.html">Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="gallery.html">GALLERY</a></li>
+						</ul>
+					</li>
+					<li><a href="achievements.html">Achievements</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div>
+		<span class="glyphicon glyphicon-earphone"><a class="p" href="#">0714627598</a></span><br>
+		<span class="glyphicon glyphicon-envelope"><a class="p" href="#">huka69@yahoo.com</a></span>
+	</div>
+	<form class="fm1">
+	First Name: <br>
+	<input type="text" name="First name" placeholder="First name" required><br>
+	Second Name:<br>
+	<input type="text" name="Second name" placeholder="Second name"><br>
+	Email Address:<br>
+	<input type="email" name="email" placeholder="email" autocomplete="on"><br>
+	Gender:<br>
+	<input type="radio" name="Gender" value="male" checked="">male<br>
+	<input type="radio" name="Gender" value="female">female<br>
+	<input type="radio" name="Gender" value="other">other<br>
+	Password:<br>
+	<input type="Password" name="Password" placeholder="Password"><br>
+	confirm password:<br>
+	<input type="Password" name="password" placeholder="confirm password"><br>
+	Comments:<br>
+	<textarea name="textarea" id="" cols="30" rows="10" placeholder="Comments Here"></textarea><br>
+	<button type="submit">submit</button>
+<a href="secondclass.html">Homepage</a>
+</form>
+
+</body>
+</html>
